@@ -1,0 +1,45 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local Python environments
+.venv/
+venv/
+env/
+.python-version
+
+# Python build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Coverage output
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Local IDE settings
+.idea/
+.vscode/
+
+# Local environment secrets (keep example configuration)
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Operating system temporary files
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
